@@ -2,6 +2,26 @@
 title: Example Page
 layout: AdvancedLayout
 sections:
+  - type: QuoteSection
+    colors: colors-c
+    width: wide
+    height: short
+    textAlign: left
+    quote: >-
+      Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+      doloremque laudantium, totam rem aperiam. Eaque ipsa quae ab illo
+      inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+      Sed ut perspiciatis undeomnis iste natus error sit voluptatem accusantium
+      doloremque laudantium, totam rem aperiam. Eaque ipsa quae ab illo
+      inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+    name: Isabelle Parks
+    title: Head chef at The Cook
+    backgroundImage:
+      type: ImageBlock
+      url: /images/water.jpg
+      altText: Water
+      caption: ''
+      opacity: 40
   - type: ContactSection
     variant: variant-b
     colors: colors-e
@@ -110,7 +130,7 @@ sections:
     textAlign: left
     badge:
       label: New Website
-    title: The quick, brown fox jumps over **a lazy dog**
+    title: 'The quick, brown fox jumps over **a lazy dog**'
     text: >-
       Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
       doloremque laudantium, totam rem aperiam, eaque ipsa quae. explicabo.
@@ -147,24 +167,4 @@ sections:
           type: ImageBlock
           url: /images/the-logo.svg
           altText: The logo
-  - type: QuoteSection
-    colors: colors-c
-    width: wide
-    height: short
-    textAlign: left
-    quote: >-
-      Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-      doloremque laudantium, totam rem aperiam. Eaque ipsa quae ab illo
-      inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-      Sed ut perspiciatis undeomnis iste natus error sit voluptatem accusantium
-      doloremque laudantium, totam rem aperiam. Eaque ipsa quae ab illo
-      inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-    name: Isabelle Parks
-    title: Head chef at The Cook
-    backgroundImage:
-      type: ImageBlock
-      url: /images/water.jpg
-      altText: Water
-      caption: ''
-      opacity: 40
 ---
